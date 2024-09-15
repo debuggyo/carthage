@@ -1,32 +1,38 @@
-@keyframes goup {
-    0% {transform:translateY(10px); opacity:0;}
-    100% {transform:translateY(0); opacity:1;}
+@font-face {
+    font-family: debuggyfont;
+    src: url(debuggy-font.otf);
 }
 
 html, body {
-    background-color: #171717;
-    font-family: Figtree;
+    background-color: #201717;
+    font-family: Inter;
+    cursor: url(images/cursor.png), auto;
+    color: #E1B351
 }
 
 .header {
-    background-color: #793251;
+    background: transparent;
     height: 35px;
     padding: 15px 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: left;
-    box-shadow: #793251 0px 0px 100px;
     position: sticky;
 }
 
 .header img {
     transition: 200ms;
-    cursor: pointer;
+    cursor: url(images/pointer.png), pointer;
 }
 
-.header img:hover {
-    filter: drop-shadow(0px 0px 10px #E1B351);
+.discord, .github {
+    margin-inline: 5px;
+}
+
+.discord:hover, .github:hover, .carthage:hover {
+    transform: translate(2px, -3px);
+    filter: drop-shadow(-2px 3px 0px #793251);
 }
 
 .container {
@@ -39,32 +45,34 @@ html, body {
     margin-left: 10px;
     padding: 8px 15px;
     border-radius: 2rem;
-    background-color: transparent;
-    border: 2px solid #E1B35122;
+    background-color: #E1B351;
+    border: 3px solid #793251;
     transition: 200ms cubic-bezier(0.19, 1, 0.22, 1);
-    color: #FEFBFB;
+    color: #793251;
+    font-weight: 400;
     text-decoration: none;
     text-align: center;
     margin-left: auto;
+    box-shadow: -2px 3px 0px #793251;
+    transform: rotate(-3deg);
+    font-family: debuggyfont;
+    font-size: 30px;
+    cursor: url(images/pointer.png), pointer;
+}
+
+.header a.currentpage {
+    transform: translate(-2px, 3px) rotate(-3deg);
+    box-shadow: none;
 }
 
 .header a:hover {
-    background-color: #E1B35122;
-    border: 2px solid #E1B35166;
     transition: 200ms cubic-bezier(0.19, 1, 0.22, 1);
-    box-shadow: 0px 5px 20px #E1B35166;
+    transform: translate(2px, -3px) rotate(-3deg);
+    box-shadow: -4px 6px 0px #793251;
 }
 
 .logo {
     margin-right: 10px;
-}
-
-.header a.currentpage {
-    background-color: #E1B351;
-    border: 2px solid #FFFFFF44;
-    box-shadow: 0px 5px 20px #E1B35188;
-    color: black;
-    font-weight: 700;
 }
 
 .content {
@@ -83,22 +91,20 @@ html, body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    cursor: pointer;
+    cursor: url(images/pointer.png), pointer;
+    transition: 200ms;
 }
 
-.carthage p {
-    color: #E1B351;
-    font-weight: 700;
-    font-size: 18pt;
-    transition: 500ms;
-    text-wrap: nowrap;
+.carthage .title {
+    margin-left: -12px;
+    z-index: -1;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
     .carthage {
         width: 32px;
     }
-    .carthage p {
+    .carthage .title {
         transform: translateX(-700px);
         visibility: hidden;
     }
