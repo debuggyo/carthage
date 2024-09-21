@@ -38,6 +38,7 @@
 .memberinfo {
     display: flex;
     flex-direction: column;
+    z-index: 2;
 }
 
 .memberinfo p {
@@ -57,6 +58,20 @@
     font-weight: 800;
     font-size: 25pt;
     margin-bottom: -10px
+}
+
+#razikof {
+    background-image: url(/images/faust/stalk.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: calc(100% - 50px) 50%;
+}
+
+#debuggyo {
+    background-image: url(/images/faust/rogue.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: calc(100% - 50px) 50%;
 }
 
 @media screen and (max-width: 600px) {   
