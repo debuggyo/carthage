@@ -7,7 +7,7 @@ html, body {
     background-color: #201717;
     font-family: Inter;
     cursor: url(images/cursor.png), auto;
-    color: #E1B351
+    color: #E1B351;
 }
 
 .header {
@@ -76,7 +76,8 @@ html, body {
 }
 
 .content {
-    color: white;
+    color: #E1B351;
+    font-weight: 600;
     padding: 15px;
     height: 100%;
     flex-grow: 1;

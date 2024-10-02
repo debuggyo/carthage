@@ -1,0 +1,54 @@
+{
+    "players": [
+        {
+            "name": "Razikof",
+            "rank": "God Empress and Founder",
+            "town": "Eastern Headquarters",
+            "discord": "Razikof",
+            "nicknames": "Kof",
+            "pronouns": "She / Her",
+            "faust": "../images/faust/stalk.png"
+        },
+        {
+            "name": "Thilman",
+            "rank": "Second in Command",
+            "town": "Kingdom of the Netherlands",
+            "discord": "._drog_.",
+            "nicknames": "drog",
+            "pronouns": "He / Him"
+        },
+        {
+            "name": "debuggyo",
+            "rank": "God Empress and Founder",
+            "town": "Aperture Kernel Driver",
+            "discord": "debuggyo",
+            "nicknames": "debuggy",
+            "pronouns": "He / Him",
+            "faust": "../images/faust/rogue.png"
+        },
+        {
+            "name": "ovcak5",
+            "rank": "Prime Minister",
+            "town": "Kingdom of Sardinia",
+            "discord": "ovcak5",
+            "nicknames": "ovcak",
+            "pronouns": "He / Him"
+        },
+        {
+            "name": "SaxboyLaFranks",
+            "rank": "Minister of Foreign Affairs",
+            "town": "Ireland",
+            "discord": "saxboy_lafranks",
+            "nicknames": "Sax, SexboyLaFreaky, Controversial",
+            "pronouns": "He / Him"
+        },
+        {
+            "name": "TareqZayn",
+            "rank": "Tac",
+            "town": "Hannover",
+            "discord": "tareqzayn",
+            "nicknames": "Tac",
+            "pronouns": "He / Him"
+        }
+    ]
+}

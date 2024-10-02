@@ -1,0 +1,22 @@
+body, html {
+    background-color: #1F243D;
+}
+
+.header {
+    padding: 13px 0;
+    padding-top: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-image: linear-gradient(to right, #1F243D 50%,  #783250 50%);
+    border-bottom: 3px solid #E1B351;
+}
+
+.header img {
+    cursor: url(../images/cursor.png), auto
+}
+
+.tenor-gif-embed {
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
