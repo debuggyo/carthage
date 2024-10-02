@@ -35,7 +35,7 @@ function renderPlayerCards(players) {
     });
 }
 
-fetch('../fancymembercards/players.json')
+fetch('players.json')
     .then(response => response.json())
     .then(data => {
         players = data.players;
